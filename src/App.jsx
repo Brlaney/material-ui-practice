@@ -4,9 +4,14 @@ import PhotoCamera from '@material-ui/icons';
 
 const App = () => {
   return (
-    <div>
-      <Typography varient="h1">Hello, world!</Typography>
-    </div>
+    <>
+      <CssBaseline />
+      <AppBar position="relative">
+        <Toolbar>
+          <PhotoCamera />
+        </Toolbar>
+      </AppBar>
+    </>
   );
 }
 
